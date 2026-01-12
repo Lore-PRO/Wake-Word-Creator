@@ -1,0 +1,25 @@
+
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Dataset (only keep the structure, not the audio files)
+dataset/positives/*.wav
+dataset/positives/.DS_Store
+dataset/negatives/*.wav
+dataset/negatives/.DS_Store
+dataset/noises/*.wav
+dataset/noises/.DS_Store
+raw_noises/*.wav
+raw_noises/*.mp3
+raw_noises/*.m4a
+raw_noises/*.flac
+raw_noises/.DS_Store
+
+# Models
+generated_model/*.pth
+generated_model/*.onnx
+generated_model/*.data
+generated_model/.DS_Store
